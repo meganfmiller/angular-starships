@@ -1,0 +1,4 @@
+<h2>Our Ships</h2>
+<div ng-repeat="ship in ships">
+    {{ship.name}} <a ui-sref='shipDetail( {id: getId(ship)} )'>More Details</a>
+</div>

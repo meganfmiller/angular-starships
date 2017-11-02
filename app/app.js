@@ -1,0 +1,1 @@
+angular.module('starships', ['ui.router']);
